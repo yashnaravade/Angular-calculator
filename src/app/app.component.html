@@ -1,0 +1,20 @@
+<div class="container text-center mt-5">
+
+
+<h1>Simple Calculator</h1>
+
+<input type="number" [(ngModel)]="firstNumber" name="firstNumber" class="input-box"/>
+<input type="number" [(ngModel)]="secondNumber" name="secondNumber" class="input-box"/>
+<br>
+<br>
+
+<button (click)="add()" class="calBtn" >+</button>
+<button (click)="subtract()" class="calBtn">-</button> 
+<button (click)="multiply()" class="calBtn">*</button>
+<button (click)="divide()" class="calBtn">/</button>
+<button (click)="clear()" class="clearBtn">Clear</button>
+
+<h2>Result : {{result}}</h2>
+
+<router-outlet></router-outlet>
+</div>

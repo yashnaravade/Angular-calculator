@@ -1,0 +1,55 @@
+.calBtn{
+    width:35px;
+    height:30px;
+    border:1px solid #000;
+    border-radius:5px;
+    background-color:#fff;
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+    margin:5px;
+    box-shadow:red 0px 2px 4px;
+    margin:10px;
+
+
+}
+.calBtn:hover{
+    background-color: rgb(66, 57, 57);
+    color:#fff;
+}
+
+.clearBtn{
+    height: 30px;
+    border:1px solid #000;
+    border-radius:5px;
+    background-color:#fff;
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+    margin:5px;
+    box-shadow:red 0px 2px 4px;
+
+}
+
+.input-box{
+    width:300px;
+    height:40px;
+    border:1px solid #000;
+    border-radius:5px;
+    background-color:#fff;
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+    margin:5px;
+    box-shadow:red 0px 2px 4px;
+}
+
